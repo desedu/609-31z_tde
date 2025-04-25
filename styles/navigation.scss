@@ -1,0 +1,42 @@
+.header__desktop-nav {
+	position: fixed;
+	width: 100%;
+	background-color: var(--color-white);
+	z-index: 1;
+	box-shadow: 0 0 35px rgba(171, 190, 209, 0.2);
+}
+	
+.desktop-nav__wrap {
+	padding: 22px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	@media (max-width: 992px) {
+		display: none;
+	}
+}
+	
+.nav-list {
+	display: flex;
+	gap: 50px;
+	
+	@media (max-width: 1230px) {
+		gap: 30px;
+	}
+}
+	
+	nav-list__item_active {
+	font-weight: 500;
+}
+	
+.nav-buttons {
+	display: flex;
+	gap: 14px;
+}
+	
+.nav-list a:hover {
+	opacity: 0.6;
+	transition: 250ms;
+}
+	

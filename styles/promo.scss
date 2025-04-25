@@ -1,0 +1,43 @@
+.promo {
+	background: var(--color-secondary);
+	padding: 180px 0 96px;
+	
+	@media (max-width: 768px) {
+		padding: 121px 0 60px;
+	}
+}
+	
+.promo__content {
+	display: flex;
+	align-items: center;
+	gap: 111px;
+	
+	@media (max-width: 992px) {
+		gap: 40px;
+	
+		img {
+		width: 280px;
+		}
+	}
+	
+	@media (max-width: 768px) {
+		flex-direction: column-reverse;
+	}
+	
+	@media (max-width: 576px) {
+		img {
+		width: 100%;
+		}
+	}
+}
+	
+.promo__group p {
+	margin-bottom: 32px;
+	}
+	
+	@media (max-width: 768px) {
+	.promo__group button {
+		width: 100%;
+	}
+}
+	

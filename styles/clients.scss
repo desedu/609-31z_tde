@@ -1,0 +1,33 @@
+.clients {
+	padding: 100px 0 50px;
+	
+	@media (max-width: 768px) {
+		padding: 80px 0 40px;
+	}
+}
+	
+.clients__title {
+	text-align: center;
+}
+	
+.clients__subtitle {
+	text-align: center;
+	margin-bottom: 32px;
+}
+	
+.clients__logos {
+	display: flex;
+	gap: 80px;
+	justify-content: center;
+	
+	@media (max-width: 992px) {
+		gap: 36px;
+	}
+	
+	@media (max-width: 768px) {
+		flex-wrap: wrap;
+		column-gap: 26px;
+		row-gap: 16px;
+	}
+}
+	
